@@ -28,6 +28,11 @@ export default function Home() {
           transition={{ duration: 0.8 }}
           className="relative z-10 max-w-3xl mx-auto"
         >
+          {/* ✅ Add this bold line */}
+          <h2 className="text-xl md:text-2xl font-bold text-gray-800 dark:text-gray-200 mb-2">
+            Logistics and Transport Company
+          </h2>
+
           <h1 className="text-4xl md:text-5xl font-extrabold text-blue-700 dark:text-white mb-6">
             Delivering Logistics <span className="text-gray-900 dark:text-blue-400">with Speed & Trust</span>
           </h1>
@@ -36,12 +41,8 @@ export default function Home() {
             We move goods across cities, borders, and expectations — backed by real-time tracking, expert teams, and
             technology that drives results.
           </p>
-
-          
         </motion.div>
       </section>
-
-      
     </main>
   )
 }
